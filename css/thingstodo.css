@@ -1,0 +1,186 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+
+p{
+    text-align: center;
+    font-size: 24px;
+}
+input{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+}
+/* Header */
+#santa_helpers{
+    display:block;
+    height:100px;
+    width: 300px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+/* Navigation */
+nav{
+    border-radius: 10px 10px 0 0;
+}
+
+
+.navbar-nav{
+    margin-left:auto;
+    margin-right:auto;
+    z-index: 9;
+}
+
+.nav-item{
+    padding: 0 25px 0 25px;
+    font-size: 14px;
+}
+
+.nav-item:hover{
+    background-color: #34283F;
+    font-size: 16px;
+    transition: .5s;
+    border-radius: 10px;
+}
+
+.active{
+    border-bottom: 2px solid #fff;
+}
+
+.nav-link{
+    color:#fff !important;
+
+}
+
+.bg-light{
+    background-color: #CC231E !important;
+}
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+#facebook a{
+    color:#fff;
+    font-size: 40px;
+}
+
+#twitter a{
+    color:#fff;
+    font-size: 40px;
+}
+
+#google a{
+    color:#CC231E;
+    font-size: 40px;
+}
+
+#linkedin a{
+    color:#fff;
+    font-size: 40px;
+}
+
+/***************** THINGS TO DO  ********************/
+h1{
+font-style: Courier;
+font-size: 50px;
+text-align:center;
+color: white;
+}
+
+#things_to_do a{
+  background-color: #34283F;
+  border-radius: 10px;
+  font-family: Helvetica;
+  font-size: 16px
+}
+
+.whattodo {
+  background-color: #34283F;
+  border-radius: 10px;
+
+}
+.body {
+  background-color: #34283F ;
+  border-radius: 10px;
+  color: white;
+}
+
+.rounded-circle {
+  border-radius: 40deg;
+}
+
+
+
+/***************** THINGS TO DO End *****************/
+
+/***************** footer ********************/
+footer{
+    margin-top: 0;
+}
+
+
+#cfg_footer{
+    position: relative;
+    top:7px;
+    background-color: #CC231E;
+    border-radius:20px;
+    /* padding-top: 0 !important; */
+    padding: 30px 0 30px 0;
+}
+
+#facebook{
+    background-color: #3b5998;
+    padding: 20px;
+    border-radius: 100%;
+    -webkit-box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.75);
+    width: 100px;
+    height: 100px;
+}
+
+#facebook:hover, #twitter:hover, #google:hover, #linkedin:hover{
+    opacity: .6;
+    transition: 1s;
+}
+
+#twitter{
+    background-color: #38A1F3;
+    padding:20px;
+    border-radius: 100%;
+    -webkit-box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.75);
+    width: 100px;
+    height: 100px;
+}
+
+#google{
+    background-color: #fff;
+    padding:20px;
+    border-radius: 100%;
+    -webkit-box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.75);
+    width: 100px;
+    height: 100px;
+}
+
+#linkedin{
+    background-color: #0077B5;
+    padding:20px;
+    border-radius: 100%;
+    -webkit-box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.75);
+    width: 100px;
+    height: 100px;
+}
+
+#footer li{
+    padding: 0 30px !important;
+}
+
+/* Footer End */

@@ -1,0 +1,155 @@
+  /*/////////// Recipe CSS Begins/////////*/
+
+  .recipe-link {
+      font-family:sans-serif;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black,
+      -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  }
+  a {
+      color: White;
+  }
+  a:hover {
+      color: grey;
+  }
+
+  h1 {
+      font-size: 26px;
+      text-align:center;
+  }
+
+  /*/////////////////////////////////////////////////////////////////////////*/
+
+
+  .fullpage {
+      background-color: purple;
+      height: 86vh;
+      width: 100vw;
+  }
+
+
+  .halfheight{
+      height: 50%;
+  }
+  /*///////////////////////IMAGES////////////////////////////////////////*/
+
+  .img1 {
+      background-image: url("../images/Aneisha-xmas-meal.jpg");
+      width:20vw;
+      height:43vh;
+      background-size: cover;
+      background-position: center;
+
+  }
+  .img2 {
+    background-image: url("../images/Aneisha-roast-turkey.jpg");
+    width:20vw;
+    height:43vh;
+    background-size: cover;
+    background-position: center;
+  }
+  .img3 {
+    background-image: url("../images/Aneisha-img3.png");
+    width:20vw;
+    height:43vh;
+    background-size: cover;
+    background-position: center;
+  }
+  .img4 {
+    background-image: url("../images/Aneisha-coffee.jpg");
+    width:20vw;
+    height:43vh;
+    background-size: cover;
+    background-position: center;
+  }
+  .img5 {
+    background-image: url("../images/Aneisha-pear-hazelnut.png");
+    width:20vw;
+    height:43vh;
+    background-size: cover;
+    background-position: center;
+  }
+  .img6 {
+    background-image: url("../images/Aneisha-vegan-nr.png");
+    width:20vw;
+    height:43vh;
+    background-size: cover;
+    background-position: center;
+  }
+  .img7 {
+    background-image: url("../images/Aneisha-boeuf-bourguignon.jpg");
+    width:20vw;
+    height:43vh;
+    background-size: cover;
+    background-position: center;
+  }
+  .img8 {
+    background-image: url("../images/Aneisha-cocktails.jpg");
+    width:20vw;
+    height:43vh;
+    background-size: cover;
+    background-position: center;
+  }
+/*/////styling 1st recipe block///*/
+  .overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #4d004d;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+  }
+
+  .img1:hover .overlay {
+    bottom: 0;
+    height: 100%;
+  }
+
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+
+  /*//////////////////////////////////////////////////////////////////////*/
+  .mobileheight {
+      position: center;
+  }
+
+  .recipeheader {
+      position: absolute;
+      text-align: center;
+      top: 85%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+
+
+  }
+  /*//*MOBILE CHANGES//////////////////////////////////////////*/
+      @media only screen and (max-width: 768px) {
+      .mobileheight {
+          height: 100vh;
+      }
+
+      .halfheight {
+          height: auto;
+      }
+
+      h1 {
+          font-size: 36px;
+      }
+
+      .descrip{
+          margin-top: 0%
+      }
+  }
